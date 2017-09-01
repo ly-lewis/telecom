@@ -106,3 +106,14 @@ body,html {
     align-items: center;
     list-style: none
 }
+.introduce-img {
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+}
+.introduce-img li {
+    width: 70px;
+    height: 45px;
+    float: left
+
+}
