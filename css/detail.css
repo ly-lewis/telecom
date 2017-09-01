@@ -106,14 +106,71 @@ body,html {
     align-items: center;
     list-style: none
 }
+.steward-detail-in li:nth-child(1) {
+    width: 60px;
+    height: 60px;
+    margin-top: 29px;
+    margin-bottom: 5px
+}
+.steward-detail-in li:nth-child(2){
+    font-size: 17px;
+    margin-bottom: 5px
+}
+.steward-detail-in li:nth-child(3){
+    font-size: 14px;
+    margin-bottom: 10px
+}
+.steward-detail-in li:nth-child(5)>a{
+    display: inline-flex;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #3385ff;
+    text-decoration: none
+}
+.introduce >p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
 .introduce-img {
     display: flex;
     list-style: none;
     overflow: hidden;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: space-between;
 }
 .introduce-img li {
     width: 70px;
     height: 45px;
-    float: left
+    margin-bottom: 10px
+}
+.introduce-img li img {
+    width: 100%;
+    height: 100%
+}
 
+.activity >p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.activity-img {
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+.activity-img li {
+    width: 150px;
+    height: 65px;
+    margin-bottom: 10px
+}
+.activity-img li img {
+    width: 100%;
+    height: 100%
 }
