@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0
+}
+body,html {
+    width: 100%;
+    height: 100%;
+    background-color:#f3f4f8;
+}
+.searchDetail {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 #e6e6e8;
+    overflow: hidden;
+    margin-bottom: 1px
+}
+.detail_title {
+     font-family: PingFangSC;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #333333;
+     margin-left: 20px;
+    margin-top: 10px  
+}
+.detail_content {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: PingFangSC;
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+}

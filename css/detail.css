@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0
+}
+body,html {
+    width: 100%;
+    height: 100%;
+    background-color:#f3f4f8;
+    font-family: PingFangSC;
+    color: #333333;
+}
+.site {
+    width: 100%;
+    height: 44px;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+.site .back {
+    display: block;
+    width: 10px;
+    height: 17.5px;
+    margin-left: 20px;
+    position: absolute
+}
+.site>span {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+.hall-detail {
+    width: 100%;
+    height: 145px;
+    background: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px 0 #e6e6e8;
+}
+.hall-detail .top {
+    display: flex
+}
+.hall-detail-left {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.hall-detail-right {
+    margin-top: 15px;
+    margin-left: 13px
+}
+.hall-detail-right p:nth-child(1) {
+    margin-bottom: 10px;
+    font-size: 17px;
+    text-align: left;
+}
+.hall-detail-right p:nth-child(2) {
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+.hall-detail-right p:nth-child(3) {
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+.hall-detail .bottom {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    margin-top: 8px;
+}
+.bottom li {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px  rgba(0, 0, 0, 0.2) solid;
+    font-size: 14px;
+}
+.bottom li:nth-child(1) {
+    border-right: 0.5px  rgba(0, 0, 0, 0.2) solid
+}
+.steward-detail {
+    width: 100%;
+    height: 233px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.introduce {
+    width: 100%;
+    height: 150px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.activity {
+    width: 100%;
+    height: 190px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.steward-detail-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none
+}
