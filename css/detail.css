@@ -140,9 +140,10 @@ body,html {
     flex-wrap: wrap;
     padding: 0 20px;
     justify-content: space-between;
+    box-sizing: border-box
 }
 .introduce-img li {
-    width: 70px;
+    width: 21%;
     height: 45px;
     margin-bottom: 10px
 }
@@ -164,9 +165,10 @@ body,html {
     flex-wrap: wrap;
     padding: 0 30px;
     justify-content: space-between;
+    box-sizing: border-box
 }
 .activity-img li {
-    width: 150px;
+    width: 47%;
     height: 65px;
     margin-bottom: 10px
 }

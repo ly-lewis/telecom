@@ -10,24 +10,105 @@ body,html {
     font-family: PingFangSC;
     color: #333333;
 }
-.hall-detail {
+.hall-title {
     width: 100%;
-    background: #fff;
-    height: 114px;
-    margin-bottom: 10px;
+    display: flex;
+    background: #ffffff;
 }
-.hall-detail-in {
-    margin-left: 20px;
-    padding-right: 20px
-}
-.hall-detail .top {
+.hall-title-in {
     width: 100%;
-    /* box-shadow: inset 0 -0.5px 0 0 #c8c7cc; */
-    border-bottom: 1px #c8c7cc solid;
     height: 43px;
-    line-height: 43px;
+    margin-left: 20px;
+    padding-right: 20px;
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box
+    align-items: center;
+    box-shadow: inset 0 -0.5px 0 0 #c8c7cc;
+}
+.hall-detail {
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    background: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.hall-detail>p {
+    font-size: 18px;
+    color: #333333;
+    padding-top: 10px
+}
+.hall-detail-bot-d {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.info {
+    margin-top: 10px;
+}
+.info-name,.info-phone,.info-business{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    background: #ffffff;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.info-name input,.info-phone input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 40px
+}
+
+.info-name span,.info-phone span,.info-business span{
+    width: 18%
+}
+.info-remark span {
+    width: 18%;
+    vertical-align: top;
+    line-height: 40px
+}
+input[type="radio"]{
+    display: none;
+}
+.info-business .left{
+    background: url(../images/check.png) no-repeat left;
+    padding-left: 25px;
+    margin-right: 10px
+}
+.info-business .right{
+    background: url(../images/uncheck.png) no-repeat left;
+    padding-left: 25px
+}
+
+.remark {
+    background: #ffffff;
+    height: 100px;
+}
+.info-remark {
+    height: 100%;
+    display: flex;
+    padding-left: 20px;
+    background: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.info-remark textarea {
+    height: 100%;
+    border:none;
+    padding-top: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none
+}
+.submit button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background:  url(../images/submit.png) no-repeat center;
+    margin-top: 60px;
 }
 

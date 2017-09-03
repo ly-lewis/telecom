@@ -10,16 +10,49 @@
 </head>
 
 <body>
-   <div class="hall-detail">
-       <div class="hall-detail-in">
-        <div class="top">
+    <!-- top -->
+    <div class="hall-title">
+        <div class="hall-title-in">
             <span>营业厅</span>
             <a href="javascript:history.go(1)" class="back">
-              <img src="images/right.png" alt="">
-            </a>
+                <img src="images/right.png" alt="">
+                </a>
         </div>
-       </div>
-   </div>
+    </div>
+    <!-- detail -->
+    <div class="hall-detail">
+        <p>营业厅名称</p>
+        <div class="hall-detail-bot-d">
+            <span>宝山区逸仙路2816号</span>
+            <span>3.1km</span>
+        </div>
+    </div>
+    <!-- form -->
+    <div class="info">
+        <form action="" method="post">
+            <!-- name -->
+            <div class="info-name">
+                <span>姓名</span><input type="text" name="name" value="" placeholder="必填">
+            </div>
+            <!-- phone -->
+            <div class="info-phone">
+                <span>手机号</span><input type="text" name="name" value="" placeholder="必填">
+            </div>
+            <div class="info-business">
+                <span>业务</span>
+                <input type="radio" name="reserve" value="" checked><label class="left">手机预定</label>
+                <input type="radio" name="combo" value=""><label class="right">网卡套餐</label>
+            </div>
+            <div class="remark">
+                <div class="info-remark">
+                    <span>备注</span><textarea name="" id="" cols="30" rows="10" placeholder="请输入详细的预约事由"></textarea>
+                </div>
+            </div>
+            <div class="submit">
+                   <button>提交</button>
+                </div>
+        </form>
+    </div>
 </body>
 
 </html>
