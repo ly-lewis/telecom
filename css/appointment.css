@@ -14,12 +14,16 @@ body,html {
     width: 100%;
     background: #fff;
     height: 114px;
-    /* box-shadow: inset 0 -0.5px 0 0 #c8c7cc; */
     margin-bottom: 10px;
+}
+.hall-detail-in {
+    margin-left: 20px;
+    padding-right: 20px
 }
 .hall-detail .top {
     width: 100%;
-    box-shadow: inset 0 -0.5px 0 0 #c8c7cc;
+    /* box-shadow: inset 0 -0.5px 0 0 #c8c7cc; */
+    border-bottom: 1px #c8c7cc solid;
     height: 43px;
     line-height: 43px;
     display: flex;
