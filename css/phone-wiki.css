@@ -37,12 +37,29 @@ body,html {
     height: 44px;
     line-height: 44px;
     background: #fff;
+    margin-right: 10px;
+    box-shadow: 0 1px 2px 0 #e6e6e8;
 }
 .nav-list li {
     width: 25%;
     text-align: center;
     font-size: 16px;
     color: #333
+}
+.nav-list li:nth-child(4) span a {
+    border: none;
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+    text-decoration: none
+}
+.nav-list li span {
+    display: block;
+     margin: 0 10px; 
+    height: 100%
+}
+.nav-list-active {
+    border-bottom: 3px #333 solid
 }
 
 .article-list {
