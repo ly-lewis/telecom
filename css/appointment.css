@@ -75,12 +75,16 @@ input[type="radio"]{
     display: none;
 }
 .info-business .left{
-    background: url(../images/check.png) no-repeat left;
     padding-left: 25px;
     margin-right: 10px
 }
-.info-business .right{
+.check-on {
+    background: url(../images/check.png) no-repeat left;
+}
+.check-off {
     background: url(../images/uncheck.png) no-repeat left;
+}
+.info-business .right{
     padding-left: 25px
 }
 

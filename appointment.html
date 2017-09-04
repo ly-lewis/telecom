@@ -7,6 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/appointment.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            //left
+            $(".left").click(function () {
+                var classname = $(".left").attr("class");
+                if (classname == "left check-on") {
+                    $(".info-business .left").removeClass("check-on").addClass("check-off")
+                } else {
+                    $(".info-business .left").removeClass("check-off").addClass("check-on")
+                }
+            });
+            //right
+            $(".right").click(function () {
+                var classname = $(".right").attr("class");
+                if (classname == "right check-on") {
+                    $(".info-business .right").removeClass("check-on").addClass("check-off")
+                } else {
+                    $(".info-business .right").removeClass("check-off").addClass("check-on")
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -40,8 +63,8 @@
             </div>
             <div class="info-business">
                 <span>业务</span>
-                <input type="radio" name="reserve" value="" checked><label class="left">手机预定</label>
-                <input type="radio" name="combo" value=""><label class="right">网卡套餐</label>
+                <input type="radio" name="reserve" id="ipt_phone" checked><label class="left check-on">手机预定</label>
+                <input type="radio" name="combo" value=""><label class="right check-off">网卡套餐</label>
             </div>
             <div class="remark">
                 <div class="info-remark">
@@ -49,8 +72,8 @@
                 </div>
             </div>
             <div class="submit">
-                   <button>提交</button>
-                </div>
+                <button>提交</button>
+            </div>
         </form>
     </div>
 </body>
