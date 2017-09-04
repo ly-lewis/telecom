@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+body,html {
+    width: 100%;
+    height: 100%;
+    background-color:#f3f4f8;
+    font-family: PingFangSC;
+    color: #333333;
+}
+
+.img-noSearch {
+    display: flex;
+    margin-top: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center
+}
